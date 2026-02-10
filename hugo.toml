@@ -19,7 +19,7 @@ theme = 'hugo-theme-stack'
         
     [params.widgets]
         homepage = ["archives", "categories", "tag-cloud"]
-        page = ["archives", "categories", "tag-cloud"]
+        page = ["recent", "archives", "categories", "tag-cloud"]
 
 [menu]
     [[menu.main]]
