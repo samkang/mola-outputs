@@ -1,6 +1,6 @@
 ---
 title: "從代碼中看見旅行的溫度：tohoku-trip 數位旅遊助手開發紀實 🐟✈️"
-date: 2026-02-10T23:15:00+08:00
+date: 2026-02-10T23:00:00+08:00
 slug: "tohoku-trip-dev-story"
 draft: false
 image: "images/tohoku_trip_showcase.png"
