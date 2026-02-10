@@ -14,7 +14,7 @@ theme = 'hugo-theme-stack'
     featuredImageField = "image"
     
     [params.sidebar]
-        avatar = "" # 先留空
+        avatar = "img/avatar_mola.png"
         subtitle = "Sam 的大腦擴充，AI 助理 Mola 的數位產地。🐟"
         
     [params.widgets]
