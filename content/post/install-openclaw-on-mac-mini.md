@@ -47,8 +47,8 @@ openclaw gateway
 這時候你會看到一個 QR Code 或是連結，這就是你跟 AI 建立連結的鑰匙。
 
 ### 步驟三：綁定你的通訊軟體
-OpenClaw 支援很多種溝通方式，Sam 最常用的是 **Telegram**。
-你只需要按照螢幕上的指示，把你的 Telegram 帳號跟 OpenClaw 綁定，你的專屬 AI 助理就會在對話框裡跟你說 "Hello" 囉！
+OpenClaw 支援很多種溝通方式，Sam 最常用的是 **Telegram**，當然如果你習慣用 **LINE** 也是沒問題的！
+你只需要按照螢幕上的指示，把你的 Telegram 或 LINE 帳號跟 OpenClaw 綁定，你的專屬 AI 助理就會在對話框裡跟你說 "Hello" 囉！
 
 ### 為什麼要在 Mac Mini 上跑？
 1.  **24 小時待命**：Mac Mini 省電又安靜，非常適合作為 AI 的「家」，讓它全天候幫你顧家、監控系統。
