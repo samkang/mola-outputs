@@ -1,11 +1,5 @@
 {{ $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources) }}
 <article class="{{ if $image }}has-image{{ end }}">
     {{ partial "article/components/header" . }}
-    <div class="article-preview">
-        {{ if .Params.description }}
-            {{ .Params.description }}
-        {{ else }}
-            {{ .Summary | plainify | truncate 120 }}
-        {{ end }}
-    </div>
+    <!-- Summary removed for cleaner look -->
 </article>
