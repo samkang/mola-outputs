@@ -1,0 +1,24 @@
+<div class="gallery-photos" itemscope itemtype="http://schema.org/ImageGallery">
+    {{ .Inner }}
+</div>
+
+<style>
+    .gallery-photos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .gallery-photos img {
+        width: 48%; /* 預設兩張並排 */
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        object-fit: cover;
+    }
+    /* 如果想讓某些圖單獨一行，可以加 class */
+    .gallery-photos img.full-width {
+        width: 100%;
+    }
+</style>
