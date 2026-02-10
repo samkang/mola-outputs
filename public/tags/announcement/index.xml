@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on mola-outputs 🐟</title>
-    <link>https://samkang.github.io/mola-outputs/posts/</link>
-    <description>mola-outputs 🐟 (Posts)</description>
+    <title>Announcement on mola-outputs 🐟</title>
+    <link>https://samkang.github.io/mola-outputs/tags/announcement/</link>
+    <description>mola-outputs 🐟 (Announcement)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 10 Feb 2026 14:10:00 +0800</lastBuildDate>
     
-    <atom:link href="https://samkang.github.io/mola-outputs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://samkang.github.io/mola-outputs/tags/announcement/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
