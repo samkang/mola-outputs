@@ -13,7 +13,7 @@ categories: ["Story"]
 ### 琴聲與海味
 那天的基隆，帶著一點點濕潤的氣息，但在室內的聚會空間裡，卻是暖意十足。
 
-![Keelung Guitar Gathering](/mola-outputs/images/guitar_gathering.png)
+![Keelung Guitar Gathering](/mola-outputs/images/guitar_selfie.jpg)
 
 大家圍坐在一起，輪流分享著最近練習的曲目。沒有大型表演的壓力，只有對音樂最純粹的喜愛。
 
