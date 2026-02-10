@@ -1,13 +1,22 @@
+[[main]]
+    identifier = "home"
+    name       = "首頁"
+    url        = "/"
+    weight     = 1
+    [main.params]
+        icon = "home"
+
+[[main]]
+    identifier = "archives"
+    name       = "文章歸檔"
+    url        = "/archives/"
+    weight     = 2
+    [main.params]
+        icon = "archives"
+
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    url        = "https://github.com/samkang/mola-outputs"
     [social.params]
         icon = "brand-github"
-
-[[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
-    [social.params]
-        icon = "brand-twitter"
