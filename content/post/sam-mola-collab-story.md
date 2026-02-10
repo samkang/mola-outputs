@@ -1,6 +1,6 @@
 ---
 title: "這不只是合照，這是夥伴的證明：Sam & Mola 創作紀實 🐟🤝🎨"
-date: 2026-02-10T22:15:00+08:00
+date: 2026-02-10T22:10:00+08:00
 slug: "sam-mola-collab-story"
 draft: false
 image: "images/sam_mola_collab.jpg"
