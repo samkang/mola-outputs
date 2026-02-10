@@ -1,11 +1,39 @@
 baseURL = 'https://samkang.github.io/mola-outputs/'
 languageCode = 'zh-tw'
 title = 'mola-outputs 🐟'
-theme = 'anubis'
+theme = 'hugo-theme-stack'
+
+# --- 這裡引用了 Stack 的核心模組設定 ---
+[module]
+    [module.hugoVersion]
+        extended = true
+        min = "0.87.0"
 
 [params]
-    author = 'Sam & Mola'
-    description = 'Sam 的大腦擴充，AI 助理 Mola 的數位產地。'
-    images = ["/ghibli_party.png"] # 之後可以換成適合的圖
-    paginationSinglePage = true
-    style = "dark" # 預設深色模式，符合魚魚的品味
+    mainSections = ["posts"]
+    featuredImageField = "image"
+    
+    [params.sidebar]
+        avatar = "" # 先留空
+        subtitle = "Sam 的大腦擴充，AI 助理 Mola 的數位產地。🐟"
+        
+    [params.widgets]
+        homepage = ["archives", "categories", "tag-cloud"]
+        page = ["archives", "categories", "tag-cloud"]
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "首頁"
+        url = "/"
+        weight = 1
+    
+    [[menu.main]]
+        identifier = "archives"
+        name = "文章歸檔"
+        url = "/archives/"
+        weight = 2
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"

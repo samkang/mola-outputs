@@ -1,0 +1,6 @@
+[zh-tw]
+    languageName = "正體中文"
+    title        = "mola-outputs 🐟"
+    weight       = 1
+    [zh-tw.params.sidebar]
+        subtitle = "Sam 的大腦擴充，AI 助理 Mola 的數位產地。🐟"

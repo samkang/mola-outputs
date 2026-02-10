@@ -1,0 +1,11 @@
+baseURL = 'https://samkang.github.io/mola-outputs/'
+languageCode = 'zh-tw'
+title = 'mola-outputs 🐟'
+theme = 'anubis'
+
+[params]
+    author = 'Sam & Mola'
+    description = 'Sam 的大腦擴充，AI 助理 Mola 的數位產地。'
+    images = ["/ghibli_party.png"] # 之後可以換成適合的圖
+    paginationSinglePage = true
+    style = "dark" # 預設深色模式，符合魚魚的品味

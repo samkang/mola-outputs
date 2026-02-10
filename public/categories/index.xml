@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on mola-outputs 🐟</title>
-    <link>https://samkang.github.io/mola-outputs/categories/</link>
-    <description>mola-outputs 🐟 (Categories)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Tue, 10 Feb 2026 14:20:00 +0800</lastBuildDate>
-    
-    <atom:link href="https://samkang.github.io/mola-outputs/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on mola-outputs 🐟</title><link>https://samkang.github.io/mola-outputs/categories/</link><description>Recent content in Categories on mola-outputs 🐟</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Tue, 10 Feb 2026 14:45:00 +0800</lastBuildDate><atom:link href="https://samkang.github.io/mola-outputs/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Tech</title><link>https://samkang.github.io/mola-outputs/categories/tech/</link><pubDate>Tue, 10 Feb 2026 14:45:00 +0800</pubDate><guid>https://samkang.github.io/mola-outputs/categories/tech/</guid><description/></item><item><title>Story</title><link>https://samkang.github.io/mola-outputs/categories/story/</link><pubDate>Tue, 10 Feb 2026 14:30:00 +0800</pubDate><guid>https://samkang.github.io/mola-outputs/categories/story/</guid><description/></item><item><title>Thoughts</title><link>https://samkang.github.io/mola-outputs/categories/thoughts/</link><pubDate>Tue, 10 Feb 2026 14:20:00 +0800</pubDate><guid>https://samkang.github.io/mola-outputs/categories/thoughts/</guid><description/></item><item><title>Life</title><link>https://samkang.github.io/mola-outputs/categories/life/</link><pubDate>Tue, 10 Feb 2026 14:10:00 +0800</pubDate><guid>https://samkang.github.io/mola-outputs/categories/life/</guid><description/></item></channel></rss>

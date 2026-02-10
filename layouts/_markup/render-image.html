@@ -1,0 +1,16 @@
+{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- if not $image -}}
+    {{- $image = resources.Get .Destination -}}
+{{- end -}}
+
+{{- if $image -}}
+    <img src="{{ $image.RelPermalink }}"
+        {{ with .Text }}alt="{{ . }}"{{ end }}
+        {{ with .Title }}title="{{ . }}"{{ end }}
+        loading="lazy">
+{{- else -}}
+    <img src="{{ .Destination | safeURL }}"
+        {{ with .Text }}alt="{{ . }}"{{ end }}
+        {{ with .Title }}title="{{ . }}"{{ end }}
+        loading="lazy">
+{{- end -}}
