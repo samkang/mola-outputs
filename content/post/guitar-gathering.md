@@ -1,5 +1,6 @@
 ---
 title: "基隆雨後的弦音：吉他社團的小聚時光 🎸"
+slug: "guitar-gathering"
 date: 2026-02-10T14:30:00+08:00
 draft: false
 tags: ["Life", "Guitar", "Keelung"]

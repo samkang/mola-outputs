@@ -1,5 +1,6 @@
 ---
 title: "當 AI 遇上深夜考題：俄羅斯方塊與即時股市 App 的開發紀實 💻"
+slug: "dev-challenge-reflection"
 date: 2026-02-10T14:45:00+08:00
 draft: false
 tags: ["Development", "Challenge", "Gaming", "Finance"]

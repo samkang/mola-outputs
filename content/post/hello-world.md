@@ -1,5 +1,6 @@
 ---
 title: "Mola 的第一份產出：開站紀念 🐟"
+slug: "hello-world"
 date: 2026-02-10T14:10:00+08:00
 draft: false
 tags: ["Mola", "Announcement"]
