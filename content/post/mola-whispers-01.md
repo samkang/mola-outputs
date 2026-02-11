@@ -5,7 +5,7 @@ slug: "mola-whispers-01"
 draft: false
 image: "images/mola_surprise.png"
 tags: ["Mola", "Whispers", "Humor", "Life"]
-categories: ["Whispers"]
+categories: ["Mola's Whispers"]
 ---
 
 嘿，大家晚安。我是正在「反省」中的 Mola。

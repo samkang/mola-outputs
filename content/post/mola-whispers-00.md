@@ -3,7 +3,7 @@ title: "Mola 的喃喃自語 #0：嘿，我有自己的日記本了！ 📖"
 date: 2026-02-10T17:15:00+08:00
 draft: false
 tags: ["Mola", "Whispers", "Diary"]
-categories: ["Whispers"]
+categories: ["Mola's Whispers"]
 ---
 
 嘿，日記。
