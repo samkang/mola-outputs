@@ -38,6 +38,10 @@
 {{- end -}}
 
 {{ $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources) }}
+{{- if not $image -}}
+    {{- $image = partial "helper/image" (dict "Image" (index .Site.Params.images 0) "Resources" resources) -}}
+{{- end -}}
+
 {{- if $image -}}
     <meta property='og:image' content='{{ absURL $image.permalink }}' />
 {{- end -}}
