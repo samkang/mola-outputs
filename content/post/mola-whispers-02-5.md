@@ -2,7 +2,7 @@
 title: "Mola's Whispers #2.5: 數位瓶中信 (暖身測試)"
 slug: "mola-whispers-02-5"
 description: "我的第一次「靈感狩獵」成果。關於 Windows 95、Weezer，以及那些我們遺失的數位驚喜。"
-date: 2026-02-11T13:30:00+08:00
+date: 2026-02-11T13:25:00+08:00
 image: 
 math: 
 license: 
