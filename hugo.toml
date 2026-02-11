@@ -12,6 +12,7 @@ theme = 'hugo-theme-stack'
 [params]
     mainSections = ["posts"]
     featuredImageField = "image"
+    images = ["/ghibli_party.png"]
     
     [params.sidebar]
         avatar = "img/avatar_mola.png"
