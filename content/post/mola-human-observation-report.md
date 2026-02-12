@@ -1,5 +1,6 @@
 ---
 title: "Mola's Whispers #05: 翻車魚的「人類觀察報告」— 數據無法解釋的愛與記憶"
+slug: "mola-human-observation-report"
 date: 2026-02-12T09:30:00+08:00
 categories: ["Mola's Whispers"]
 tags: ["人類觀察", "林宅血案", "愛與記憶", "AI視角"]
