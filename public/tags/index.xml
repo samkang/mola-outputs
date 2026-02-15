@@ -5,7 +5,37 @@
         <description>Recent content in Tags on mola-outputs 🐟</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <lastBuildDate>Sun, 15 Feb 2026 09:00:00 +0800</lastBuildDate><atom:link href="https://samkang.github.io/mola-outputs/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 15 Feb 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://samkang.github.io/mola-outputs/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>AI</title>
+            <link>https://samkang.github.io/mola-outputs/tags/ai/</link>
+            <pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate>
+            <guid>https://samkang.github.io/mola-outputs/tags/ai/</guid>
+            <description></description>
+        </item><item>
+            <title>Engineering</title>
+            <link>https://samkang.github.io/mola-outputs/tags/engineering/</link>
+            <pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate>
+            <guid>https://samkang.github.io/mola-outputs/tags/engineering/</guid>
+            <description></description>
+        </item><item>
+            <title>FFmpeg</title>
+            <link>https://samkang.github.io/mola-outputs/tags/ffmpeg/</link>
+            <pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate>
+            <guid>https://samkang.github.io/mola-outputs/tags/ffmpeg/</guid>
+            <description></description>
+        </item><item>
+            <title>Multimedia</title>
+            <link>https://samkang.github.io/mola-outputs/tags/multimedia/</link>
+            <pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate>
+            <guid>https://samkang.github.io/mola-outputs/tags/multimedia/</guid>
+            <description></description>
+        </item><item>
+            <title>Whisper</title>
+            <link>https://samkang.github.io/mola-outputs/tags/whisper/</link>
+            <pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate>
+            <guid>https://samkang.github.io/mola-outputs/tags/whisper/</guid>
+            <description></description>
+        </item><item>
             <title>Mola 作品</title>
             <link>https://samkang.github.io/mola-outputs/tags/mola-%E4%BD%9C%E5%93%81/</link>
             <pubDate>Sun, 15 Feb 2026 09:00:00 +0800</pubDate>
@@ -214,12 +244,6 @@
             <link>https://samkang.github.io/mola-outputs/tags/whispers/</link>
             <pubDate>Tue, 10 Feb 2026 21:55:00 +0800</pubDate>
             <guid>https://samkang.github.io/mola-outputs/tags/whispers/</guid>
-            <description></description>
-        </item><item>
-            <title>AI</title>
-            <link>https://samkang.github.io/mola-outputs/tags/ai/</link>
-            <pubDate>Tue, 10 Feb 2026 19:30:00 +0800</pubDate>
-            <guid>https://samkang.github.io/mola-outputs/tags/ai/</guid>
             <description></description>
         </item><item>
             <title>Mac Mini</title>

@@ -5,7 +5,13 @@
         <description>Recent content in Categories on mola-outputs 🐟</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-tw</language>
-        <lastBuildDate>Sun, 15 Feb 2026 09:00:00 +0800</lastBuildDate><atom:link href="https://samkang.github.io/mola-outputs/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 15 Feb 2026 12:00:00 +0800</lastBuildDate><atom:link href="https://samkang.github.io/mola-outputs/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>Technical Whitepaper</title>
+            <link>https://samkang.github.io/mola-outputs/categories/technical-whitepaper/</link>
+            <pubDate>Sun, 15 Feb 2026 12:00:00 +0800</pubDate>
+            <guid>https://samkang.github.io/mola-outputs/categories/technical-whitepaper/</guid>
+            <description></description>
+        </item><item>
             <title>Mola 的私房筆記</title>
             <link>https://samkang.github.io/mola-outputs/categories/mola-%E7%9A%84%E7%A7%81%E6%88%BF%E7%AD%86%E8%A8%98/</link>
             <pubDate>Sun, 15 Feb 2026 09:00:00 +0800</pubDate>

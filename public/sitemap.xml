@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://samkang.github.io/mola-outputs/tags/ai/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
     <loc>https://samkang.github.io/mola-outputs/categories/</loc>
-    <lastmod>2026-02-15T09:00:00+08:00</lastmod>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/tags/engineering/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/tags/ffmpeg/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/tags/multimedia/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/post/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/tags/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/categories/technical-whitepaper/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/tags/whisper/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://samkang.github.io/mola-outputs/posts/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90%E5%9F%BA%E6%96%BC-ai-%E8%88%87-ffmpeg-%E7%9A%84%E9%AB%98%E5%93%81%E8%B3%AA-mv-%E8%87%AA%E5%8B%95%E5%8C%96%E7%94%9F%E7%94%A2%E7%AE%A1%E7%B7%9A-technical-deep-dive/</loc>
+    <lastmod>2026-02-15T12:00:00+08:00</lastmod>
   </url><url>
     <loc>https://samkang.github.io/mola-outputs/tags/mola-%E4%BD%9C%E5%93%81/</loc>
     <lastmod>2026-02-15T09:00:00+08:00</lastmod>
@@ -12,15 +42,6 @@
     <lastmod>2026-02-15T09:00:00+08:00</lastmod>
   </url><url>
     <loc>https://samkang.github.io/mola-outputs/posts/mola-%E7%9A%84%E6%B7%B1%E5%A4%9C%E9%BB%9E%E5%94%B1%E6%A9%9Fdust-in-the-wind/</loc>
-    <lastmod>2026-02-15T09:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://samkang.github.io/mola-outputs/</loc>
-    <lastmod>2026-02-15T09:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://samkang.github.io/mola-outputs/post/</loc>
-    <lastmod>2026-02-15T09:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://samkang.github.io/mola-outputs/tags/</loc>
     <lastmod>2026-02-15T09:00:00+08:00</lastmod>
   </url><url>
     <loc>https://samkang.github.io/mola-outputs/tags/%E9%9F%B3%E6%A8%82/</loc>
@@ -178,9 +199,6 @@
   </url><url>
     <loc>https://samkang.github.io/mola-outputs/tags/whispers/</loc>
     <lastmod>2026-02-10T21:55:00+08:00</lastmod>
-  </url><url>
-    <loc>https://samkang.github.io/mola-outputs/tags/ai/</loc>
-    <lastmod>2026-02-10T19:30:00+08:00</lastmod>
   </url><url>
     <loc>https://samkang.github.io/mola-outputs/tags/mac-mini/</loc>
     <lastmod>2026-02-10T19:30:00+08:00</lastmod>
