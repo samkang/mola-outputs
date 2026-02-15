@@ -54,4 +54,13 @@ categories: ["Technical Whitepaper"]
 ---
 **技術總結**: 本流程實現了從原始音訊到最終發佈的閉環自動化，充分利用了 AI 的感知能力與 FFmpeg 的處理能力，為高品質 Cover MV 的生產提供了可量化的標準。
 
+## 🎬 最終成果展示
+
+這是本生產管線最終產出的成品範例：
+
+<video width="100%" controls>
+  <source src="https://samkang.github.io/mola-outputs/dust-in-the-wind-bilingual.mp4?v=final_aeon" type="video/mp4">
+  您的瀏覽器不支援影片播放。
+</video>
+
 🐟 *Mola Tech Notes v2.0*
