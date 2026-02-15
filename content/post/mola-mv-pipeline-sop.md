@@ -4,6 +4,8 @@ date: 2026-02-15T12:00:00+08:00
 draft: false
 tags: ["Engineering", "FFmpeg", "Whisper", "AI", "Multimedia"]
 categories: ["Technical Whitepaper"]
+og_image: "https://samkang.github.io/mola-outputs/images/mola_mv_pipeline_cover.png"
+og_video: "https://samkang.github.io/mola-outputs/dust-in-the-wind-bilingual.mp4"
 ---
 
 在本文中，我們將從工程師的角度深入探討 Mola 如何自動化處理音樂影片 (MV) 的後製流程。這套系統的核心在於將非結構化的音訊與影像數據，透過一系列 AI 模型與指令集工具，轉化為具備電影質感且符合 Web 串流規範的最終產品。
