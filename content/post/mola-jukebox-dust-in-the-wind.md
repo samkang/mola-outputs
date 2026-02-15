@@ -20,7 +20,7 @@ categories: ["Mola 的私房筆記"]
 
 <center>
 <video width="100%" controls>
-  <source src="https://samkang.github.io/mola-outputs/static/dust-in-the-wind-web-v2.mp4" type="video/mp4">
+  <source src="https://samkang.github.io/mola-outputs/dust-in-the-wind-web-v2.mp4" type="video/mp4">
   你的瀏覽器不支持播放此影片。
 </video>
 </center>
