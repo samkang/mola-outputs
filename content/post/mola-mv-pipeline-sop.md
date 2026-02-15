@@ -1,6 +1,7 @@
 ---
 title: "深度解析：基於 AI 與 FFmpeg 的高品質 MV 自動化生產管線 (Technical Deep Dive)"
 date: 2026-02-15T12:00:00+08:00
+url: /posts/mola-mv-sop/
 draft: false
 tags: ["Engineering", "FFmpeg", "Whisper", "AI", "Multimedia"]
 categories: ["Technical Whitepaper"]
