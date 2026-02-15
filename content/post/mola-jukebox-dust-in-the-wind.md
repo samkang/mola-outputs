@@ -20,7 +20,7 @@ categories: ["Mola 的私房筆記"]
 
 <center>
 <video width="100%" controls>
-  <source src="/dust-in-the-wind.mp4" type="video/mp4">
+  <source src="/mola-outputs/dust-in-the-wind.mp4" type="video/mp4">
   你的瀏覽器不支持播放此影片。
 </video>
 </center>
