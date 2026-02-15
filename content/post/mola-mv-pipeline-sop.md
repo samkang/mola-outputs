@@ -21,6 +21,12 @@ og_video: "https://samkang.github.io/mola-outputs/dust-in-the-wind-bilingual.mp4
 - **音韻校準**: 使用 `Whisper large-v3` 生成含有微秒級時間戳的 `JSON` 數據結構。
 - **LLM 語意映射**: 透過 `Gemini-3-Pro` 進行上下文感知的雙語翻譯。在工程實踐中，我們會限制翻譯後的字串長度，以防止在 16:9 畫面中出現溢出 (Overflow) 或排版擁擠。
 
+### 2.1 語意校準與文本注入 (Semantic Alignment & Injection)
+這是確保歌詞 100% 正確的核心技術環節。
+- **草稿比對**: Whisper 產出的原始聽寫 (Raw Transcription) 雖有時間戳，但可能存在語音誤判（如將 "Dust" 誤聽為 "Does"）。
+- **LLM 文本替換**: 系統將「聽寫草稿」與「官方標準歌詞」同時輸入 LLM。透過語意比對技術，LLM 會識別每一行聽寫內容對應的標準文本，並執行 **「保留時間戳，完全替換文本」** 的操作。
+- **優勢**: 這種做法結合了 Whisper 的「時序精準度」與官方歌詞的「文字權威性」，徹底消滅了 AI 聽寫的錯字問題。
+
 ## 3. 視覺資產預渲染 (Graphic Pre-rendering)
 為了繞過 FFmpeg 內建 `drawtext` 濾鏡在處理多語言字體與動態排版時的效能瓶頸與穩定性問題，我們採用了 **預渲染圖層 (Layer Pre-rendering)** 技術。
 

@@ -186,7 +186,11 @@
                 
   <ol>
     <li><a href="#1-音訊預處理層-audio-frontend">1. 音訊預處理層 (Audio Frontend)</a></li>
-    <li><a href="#2-歌詞數據建模與翻譯">2. 歌詞數據建模與翻譯</a></li>
+    <li><a href="#2-歌詞數據建模與翻譯">2. 歌詞數據建模與翻譯</a>
+      <ol>
+        <li><a href="#21-語意校準與文本注入-semantic-alignment--injection">2.1 語意校準與文本注入 (Semantic Alignment &amp; Injection)</a></li>
+      </ol>
+    </li>
     <li><a href="#3-視覺資產預渲染-graphic-pre-rendering">3. 視覺資產預渲染 (Graphic Pre-rendering)</a></li>
     <li><a href="#4-ffmpeg-複雜濾鏡鏈構建-filter-complex-topology">4. FFmpeg 複雜濾鏡鏈構建 (Filter Complex Topology)</a>
       <ol>
@@ -291,7 +295,11 @@
                 
   <ol>
     <li><a href="#1-音訊預處理層-audio-frontend">1. 音訊預處理層 (Audio Frontend)</a></li>
-    <li><a href="#2-歌詞數據建模與翻譯">2. 歌詞數據建模與翻譯</a></li>
+    <li><a href="#2-歌詞數據建模與翻譯">2. 歌詞數據建模與翻譯</a>
+      <ol>
+        <li><a href="#21-語意校準與文本注入-semantic-alignment--injection">2.1 語意校準與文本注入 (Semantic Alignment &amp; Injection)</a></li>
+      </ol>
+    </li>
     <li><a href="#3-視覺資產預渲染-graphic-pre-rendering">3. 視覺資產預渲染 (Graphic Pre-rendering)</a></li>
     <li><a href="#4-ffmpeg-複雜濾鏡鏈構建-filter-complex-topology">4. FFmpeg 複雜濾鏡鏈構建 (Filter Complex Topology)</a>
       <ol>
@@ -324,6 +332,13 @@
 </h2><ul>
 <li><strong>音韻校準</strong>: 使用 <code>Whisper large-v3</code> 生成含有微秒級時間戳的 <code>JSON</code> 數據結構。</li>
 <li><strong>LLM 語意映射</strong>: 透過 <code>Gemini-3-Pro</code> 進行上下文感知的雙語翻譯。在工程實踐中，我們會限制翻譯後的字串長度，以防止在 16:9 畫面中出現溢出 (Overflow) 或排版擁擠。</li>
+</ul>
+<h3 id="21-語意校準與文本注入-semantic-alignment--injection">2.1 語意校準與文本注入 (Semantic Alignment &amp; Injection)
+</h3><p>這是確保歌詞 100% 正確的核心技術環節。</p>
+<ul>
+<li><strong>草稿比對</strong>: Whisper 產出的原始聽寫 (Raw Transcription) 雖有時間戳，但可能存在語音誤判（如將 &ldquo;Dust&rdquo; 誤聽為 &ldquo;Does&rdquo;）。</li>
+<li><strong>LLM 文本替換</strong>: 系統將「聽寫草稿」與「官方標準歌詞」同時輸入 LLM。透過語意比對技術，LLM 會識別每一行聽寫內容對應的標準文本，並執行 <strong>「保留時間戳，完全替換文本」</strong> 的操作。</li>
+<li><strong>優勢</strong>: 這種做法結合了 Whisper 的「時序精準度」與官方歌詞的「文字權威性」，徹底消滅了 AI 聽寫的錯字問題。</li>
 </ul>
 <h2 id="3-視覺資產預渲染-graphic-pre-rendering">3. 視覺資產預渲染 (Graphic Pre-rendering)
 </h2><p>為了繞過 FFmpeg 內建 <code>drawtext</code> 濾鏡在處理多語言字體與動態排版時的效能瓶頸與穩定性問題，我們採用了 <strong>預渲染圖層 (Layer Pre-rendering)</strong> 技術。</p>
